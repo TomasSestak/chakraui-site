@@ -1,0 +1,11 @@
+.welcometext {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  padding-top: 10vh;
+  justify-content: center;
+  align-items: center;
+  &__paragraph {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,6 @@
+@mixin aspect-ratio($ratio) {
+	$percent: #{$ratio * 100 * 1%};
+	position: relative;
+	padding-bottom: $percent;
+
+}
